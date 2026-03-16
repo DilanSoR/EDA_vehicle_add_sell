@@ -5,9 +5,9 @@ import plotly.graph_objects as go
 
 data = pd.read_csv('./vehicles_us.csv')
 
-st.header('Vehicle Data Analysis')
+st.header('Análisis exploratorio de los datos de velocímetro de autos')
 
-st.write('Distribución del Odómetro')
+st.write('Selecciona el gráfico que deseas visualizar:')
 
 hist_option = st.checkbox('Histograma')
 if hist_option:
@@ -17,7 +17,6 @@ if hist_option:
                       yaxis_title='Frecuencia')
     st.plotly_chart(fig)
 
-st.write('Dispersión del Odómetro')
 
 scat_option = st.checkbox('Gráfico de dispersión')
 if scat_option:
