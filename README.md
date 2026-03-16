@@ -21,3 +21,7 @@ El objetivo principal de la aplicación es facilitar la exploración de los dato
 4. Ejecutamos la aplicación:
 
     streamlit run.\app.py
+
+5. El resultado de este proyecto puede verse en la siguiente liga:
+
+    https://eda-vehicle-add-sell.onrender.com/
